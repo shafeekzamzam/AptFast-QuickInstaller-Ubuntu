@@ -4,7 +4,7 @@ clear
 
 echo "++======================APT-FAST Installer for Ubuntu 20.10======================++"
 
-apt-get install aria2 
+apt-get install aria2 -y
 
 echo "++======================Aria2 Installed======================++"
 
@@ -12,7 +12,7 @@ add-apt-repository ppa:apt-fast/stable
 
 echo "++======================Repo Added======================++"
 
-apt-get -y install apt-fast 
+apt-get -y install apt-fast -y
 
 echo "++======================APT-FAST Installed======================++"
 
